@@ -9,8 +9,12 @@
 # General
 --------------------------------------------------------------*/
 body {
-  background-color: #f5f5f5;
-  color: #4e4e4e;
+  background-color: #ffffff;
+  color: #3A3938;
+}
+
+.yellow {
+  background-color: #FBD768;
 }
 
 h1,
@@ -642,7 +646,8 @@ a:hover.a-underline {
 
 .about-mf .about-img img {
   margin-left: 10px;
-  
+  height: 100px;
+  width: 100px;
 }
 
 @media (min-width: 767px) {
@@ -654,6 +659,12 @@ a:hover.a-underline {
 
 .skill-mf span {
   color: #4e4e4e;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
