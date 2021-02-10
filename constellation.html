@@ -14,7 +14,11 @@
   <!-- <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Satisfy" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Satisfy"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> -->
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -34,6 +38,16 @@
   ======================================================== -->
 </head>
 
+<style>
+  h4 {
+    font-size: 30px;
+  }
+
+  .portfolio .portfolio-item:hover .portfolio-img img {
+    transform: none;
+  }
+</style>
+
 <body>
 
   <!-- ======= Header ======= -->
@@ -43,7 +57,7 @@
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="index.html">About</a></li>
-        <li class="active"><a href="#portfolio">Portfolio</a></li>
+        <li class="active"><a href="index.html">Portfolio</a></li>
 
       </ul>
     </nav><!-- .nav-menu -->
@@ -60,7 +74,7 @@
           <h2>Constellation Builder Details</h2>
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
             <li>Constellation Builder Details</li>
           </ol>
         </div>
@@ -70,13 +84,12 @@
 
     <!-- ======= Portfolio Details Section ======= -->
     <section class="portfolio-details">
-      <div class="container">
 
+      <div class="container">
         <div class="portfolio-details-container">
 
           <div class="owl-carousel portfolio-details-carousel">
             <img src="assets/img/portfolio/constellationBuilder-2.jpg" class="img-fluid" alt="">
-            <img src="assets/img/portfolio/constellationBuilder-3.jpg" class="img-fluid" alt="">
           </div>
 
           <div class="portfolio-info">
@@ -84,19 +97,221 @@
             <ul>
               <li><strong>Name</strong>: Constellation Builder</li>
               <li><strong>Category</strong>: Design</li>
-              <li><strong>Project URL</strong>: <a href="https://bit.ly/39BwM5G" target="_blank">https://bit.ly/39BwM5G</a></li>
+              <li><strong>Project URL</strong>: <a href="https://bit.ly/39BwM5G"
+                  target="_blank">https://bit.ly/39BwM5G</a></li>
             </ul>
           </div>
-
         </div>
 
         <div class="portfolio-description">
-          <h2>VAST Challenge 2020: Mini-Challenge 3</h2>
-          <p>
-            Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
-          </p>
-        </div>
-      </div>
+
+          <div class="row mb-4 align-items-center">
+            <div class="col-md-12" data-aos="fade-up">
+              <div id="mini-nav" class="mini-nav">
+                <a href="#overview" class="active">Overview</a>
+                <a href="#components">System Components</a>
+                <a href="#final-product">Final Product</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="row align-items-center" style="margin-bottom: 20px;">
+            <div class="col-md-12" data-aos="fade-up">
+              <h2 style="margin-bottom: 5px; font-size: 27px; font-weight: 600;"> VAST Challenge 2020:
+                Mini-Challenge 3</h2>
+            </div>
+
+            <div class="col-md-7" data-aos="fade-up">
+              <p>The goal of the annual IEEE Visual Analytics Science and Technology (VAST)
+                Challenge is to
+                advance the field of visual analytics through competition.</p>
+            </div>
+          </div>
+
+          <div class="row align-items-center" id="overview">
+            <div class="col-md-6" data-aos="fade-up">
+              <h4>Description</h4>
+              <p>As a solution to the <a class="" href="https://vast-challenge.github.io/2020/MC3.html"
+                  target="_blank">VAST
+                  Challenge 2020 Mini-Challenge 3</a>, our team presents you
+                ConstellationBuilder, a high-level situation-awareness and team assembly interface
+                for
+                cyber events. ConstellationBuilder aims to identify a range of different
+                cyber-attack events as
+                early as possible, determine their characteristics, and quickly assemble a team of
+                white hat members
+                with complementary skills to respond to each event. Specifically, the system
+                clusters massive past
+                reports and distills events based on their similarity of reports, then adopts
+                collaborative
+                filtering recommendations to suggest the most relevant events. After exploring the
+                connection between
+                historical events and team members who resolved the issues, our system recommends
+                the most suitable
+                team/constellation to handle each event. We call a team “constellation” because they
+                shine like stars on solving cyber problems.</p>
+            </div>
+
+            <div class="col-md-6" data-aos="fade-up">
+              <section id="portfolio" class="portfolio" style="padding: 0;">
+                <div class="container">
+                  <div class="row portfolio-container" style="margin-left: -35px; margin-right: -25px;">
+                    <div class="portfolio-item filter-design" style="padding-left: 20px; padding-right: 20px;">
+                      <div class="portfolio-img"><img src="assets/img/portfolio/constellationBuilder/fig1.jpg"
+                          class="img-fluid" alt="">
+                      </div>
+                      <div class="portfolio-info">
+                        <h4>VIS 2020</h4>
+                        <p>VAST Challenge Certificate</p>
+                        <a href="assets/img/portfolio/constellationBuilder/fig1.jpg" data-gall="portfolioGallery"
+                          class="venobox details-link" title="Constellation Builder"><i class="fa fa-search-plus"
+                            aria-hidden="true"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section><!-- End Section -->
+              <figcaption class="figure-caption">Fig. 1 The overall framework of ConstellationBuilder.
+              </figcaption>
+            </div>
+          </div>
+
+          <div class="row mb-4" style="margin-top: 35px;">
+            <div class="col-md-6" data-aos="fade-up">
+              <h3>Team Members: </h3>
+              <p>Prince Owusu Attah, Interaction Design, Purdue University, powusuat@purdue.edu <br>
+                Lu Ding, Intelligent Visualization and Interaction Lab, Computer Graphics
+                Technology, Purdue University, ding241@purdue.edu <br>
+                Xiaolei Guo, Intelligent Visualization and Interaction Lab, Computer Graphics
+                Technology, Purdue University, guo579@purdue.edu <br>
+                Tianyi Zhang, College of Computer Science and Technology, Nanjing University of
+                Aeronautics and Astronautics, zhangtianyi@nuaa.edu.cn <br>
+                Weiyue Deng, Intelligent Visualization and Interaction Lab, Computer Graphics
+                Technology, Purdue University, deng161@purdue.edu <br>
+                Xuan Thao (Susie) Nguyen, School of Media Arts & Design, James Madison University,
+                nguyenxx@dukes.jmu.edu <br>
+                Yunran Ju, Interaction Design, Purdue University, ju27@purdue.edu <br>
+                Dr. Jieqiong Zhao, Electrical and Computer Engineering, Purdue University,
+                zhao413@purdue.edu <br>
+                Dr. Chen Guo, School of Media Arts & Design, James Madison University,
+                guo4cx@jmu.edu <br>
+                Dr. Zhenyu Cheryl Qian, Art and Design, Purdue University, qianz@purdue.edu <br>
+                Dr. Yingjie Victor Chen, Intelligent Visualization and Interaction Lab, Computer
+                Graphics Technology, Purdue University, victorchen@purdue.edu</p>
+            </div>
+
+            <div class="col-md-6" data-aos="fade-up">
+              <h3>Tools Used: </h3>
+              <p>Adobe Illustrator, Adobe AfterEffects</p>
+              <h3> VAST Challenge 2020 Award: </h3>
+              <p>Award for Effectively Transforming Task Decomposition into Conceptual Design
+              </p>
+              <section id="portfolio" class="portfolio" style="padding: 0;">
+                <div class="container">
+                  <div class="row portfolio-container" style="margin-left: -35px; margin-right: -25px;">
+                    <div class="portfolio-item filter-design" style="padding-left: 20px; padding-right: 20px;">
+                      <div class="portfolio-img"><img src="assets/img/portfolio/constellationBuilder/certificate.png"
+                          class="img-fluid" alt="">
+                      </div>
+                      <div class="portfolio-info">
+                        <h4>VIS 2020</h4>
+                        <p>VAST Challenge Certificate</p>
+                        <a href="assets/img/portfolio/constellationBuilder/certificate.png" data-gall="portfolioGallery"
+                          class="venobox details-link" title="Constellation Builder"><i class="fa fa-search-plus"
+                            aria-hidden="true"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section><!-- End Section -->
+            </div>
+          </div>
+
+          <!-- System Components -->
+          <div class="row mb-4 align-items-center" id="components" style="margin-top: 60px;">
+            <div class="col-md-12" data-aos="fade-up">
+              <h4 class="align-center">System Components</h4>
+            </div>
+
+            <div class="col-md-12" data-aos="fade-up">
+              <p>ConstellationBuilder is comprised of three core displays: <strong>report view</strong>, an
+                <strong>event view</strong>,
+                and a <strong>team
+                  constellation view</strong> (Fig. 2). All the views are visually linked by highlighting instances
+                of the same object in one view.
+              </p>
+
+              <section id="portfolio" class="portfolio" style="padding: 0;">
+                <div class="container">
+                  <div class="row portfolio-container" style="margin-left: -35px; margin-right: -25px;">
+                    <div class="portfolio-item filter-design" style="padding-left: 20px; padding-right: 20px;">
+                      <div class="portfolio-img"><img src="assets/img/portfolio/constellationBuilder/fig2.jpg"
+                          class="img-fluid" alt=""></div>
+                      <div class="portfolio-info">
+                        <h4>Constellation Builder</h4>
+                        <p>System Components</p>
+                        <a href="assets/img/portfolio/constellationBuilder/fig2.jpg" data-gall="portfolioGallery"
+                          class="venobox details-link" title="Constellation Builder"><i class="fa fa-search-plus"
+                            aria-hidden="true"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section><!-- End Section -->
+              <figcaption class="figure-caption">Fig. 2 An overview of the
+                system: a report view, an
+                event view, and a team constellation view.</figcaption>
+            </div>
+          </div>
+
+          <!-- Machine Learning -->
+          <div class="row mb-4 align-items-center top" id="components" style="margin-top: 35px;">
+            <div class="col-md-12" data-aos="fade-up">
+              <p> The following mind maps (Fig. 3) illustrate how ConstellationBuilder incorporates machine learning
+                into the system and shows what uncertainties exist in both the data and the algorithms. For related
+                reports, events, and experts, the uncertainties can be reflected in the similarity calculation.
+                Therefore, our system recommends a list of reports, events, or experts ranking by similarity scores.
+                Analysts can review the results and choose the most appropriate ones based on their knowledge.
+              </p>
+            </div>
+
+            <figure class="figure" style="margin-top: 10px;">
+              <img src="assets/img/portfolio/constellationBuilder/figure3-1.png" alt="Image" class="img-fluid">
+              <figcaption class="figure-caption" style="margin-top: 30px;">Fig. 3 Mind map of Machine learning in (a)
+                high-level situation awareness, (b) report clustering and classification, and (c) team assembly.
+              </figcaption>
+            </figure>
+          </div>
+
+          <!-- VIDEO -->
+          <div class="row align-items-center" id="final-product" style="margin-top: 55px;">
+            <div class="col-md-12" data-aos="fade-up">
+              <h4 style="margin-bottom: 0;">Constellation Builder</h4>
+              <p>Video walk-through of the system</p>
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe width="460" height="315" src="https://www.youtube.com/embed/lLAW_XnvfgM" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+          <!-- End Machine Learning -->
+
+          <!-- <div class="row align-items-center" id="overview" style="margin-top: 30px;">
+            <div class="col-md-12" data-aos="fade-up">
+              <h4 style="margin-bottom: 0;">Final Product</h4>
+              <p>Video walk-through of Constellation Builder</p>
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe width="460" height="315" src="https://www.youtube.com/embed/lLAW_XnvfgM" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+              </div>
+            </div>
+
+          </div> -->
+
+        </div> <!-- End portfolio details description-->
+      </div> <!-- End portfolio details container-->
     </section><!-- End Portfolio Details Section -->
 
   </main><!-- End #main -->
@@ -105,7 +320,6 @@
   <footer id="footer">
     <div class="container">
       <h3>Susie Nguyen</h3>
-      <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
       <div class="social-links">
         <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
         <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
